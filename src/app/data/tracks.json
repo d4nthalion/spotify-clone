@@ -1,0 +1,132 @@
+{
+    "data": [
+        {
+            "_id": 1,
+            "name": "Master of Puppets",
+            "album": "Master of Puppets",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+            "artist": {
+                "name": "Metallica",
+                "nickname": "Metallica",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 515
+            },
+            "url": "http://localhost:3000/metal-track-1.mp3"
+        },
+        {
+            "_id": 2,
+            "name": "Painkiller",
+            "album": "Painkiller",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/9/92/Judas_Priest_Painkiller.jpg",
+            "artist": {
+                "name": "Judas Priest",
+                "nickname": "Judas Priest",
+                "nationality": "UK"
+            },
+            "duration": {
+                "start": 0,
+                "end": 385
+            },
+            "url": "http://localhost:3000/metal-track-2.mp3"
+        },
+        {
+            "_id": 3,
+            "name": "Walk",
+            "album": "Vulgar Display of Power",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/PanteraVulgarDisplayofPower.jpg",
+            "artist": {
+                "name": "Pantera",
+                "nickname": "Pantera",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 338
+            },
+            "url": "http://localhost:3000/metal-track-3.mp3"
+        },
+        {
+            "_id": 4,
+            "name": "Fear of the Dark",
+            "album": "Fear of the Dark",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/Iron_Maiden_-_Fear_Of_The_Dark.jpg",
+            "artist": {
+                "name": "Iron Maiden",
+                "nickname": "Iron Maiden",
+                "nationality": "UK"
+            },
+            "duration": {
+                "start": 0,
+                "end": 439
+            },
+            "url": "http://localhost:3000/metal-track-4.mp3"
+        },
+        {
+            "_id": 5,
+            "name": "Holy Wars... The Punishment Due",
+            "album": "Rust in Peace",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Megadeth-RustInPeace.jpg",
+            "artist": {
+                "name": "Megadeth",
+                "nickname": "Megadeth",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 410
+            },
+            "url": "http://localhost:3000/metal-track-5.mp3"
+        },
+        {
+            "_id": 6,
+            "name": "Chop Suey!",
+            "album": "Toxicity",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/6/60/System_of_a_Down_-_Toxicity.png",
+            "artist": {
+                "name": "System of a Down",
+                "nickname": "SOAD",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 210
+            },
+            "url": "http://localhost:3000/metal-track-6.mp3"
+        },
+        {
+            "_id": 7,
+            "name": "Du Hast",
+            "album": "Sehnsucht",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Rammstein_-_Sehnsucht.png",
+            "artist": {
+                "name": "Rammstein",
+                "nickname": "Rammstein",
+                "nationality": "DE"
+            },
+            "duration": {
+                "start": 0,
+                "end": 239
+            },
+            "url": "http://localhost:3000/metal-track-7.mp3"
+        },
+        {
+            "_id": 8,
+            "name": "Laid to Rest",
+            "album": "Ashes of the Wake",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/3/3a/Ashesofthewake.jpg",
+            "artist": {
+                "name": "Lamb of God",
+                "nickname": "Lamb of God",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 231
+            },
+            "url": "http://localhost:3000/metal-track-8.mp3"
+        }
+    ]
+}
