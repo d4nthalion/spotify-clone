@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { TrackModel } from '@core/models/tracks.model';
 
 @Component({
   selector: 'app-card-player',
@@ -6,6 +7,18 @@ import { Component } from '@angular/core';
   templateUrl: './card-player.component.html',
   styleUrl: './card-player.component.css'
 })
-export class CardPlayerComponent {
+export class CardPlayerComponent implements OnInit{
+  @Input() mode: 'small' | 'big' = 'small'
+  @Input() track: TrackModel = {
+    _id: 0,
+    name: '',
+    album: '',
+    url: '',
+    cover: ''
+  }
+  constructor() {}
 
+  ngOnInit(): void {
+      
+  }
 }

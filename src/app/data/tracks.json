@@ -20,7 +20,7 @@
             "_id": 2,
             "name": "Painkiller",
             "album": "Painkiller",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/9/92/Judas_Priest_Painkiller.jpg",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Judaspainkiller.JPG",
             "artist": {
                 "name": "Judas Priest",
                 "nickname": "Judas Priest",
@@ -36,7 +36,7 @@
             "_id": 3,
             "name": "Walk",
             "album": "Vulgar Display of Power",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/PanteraVulgarDisplayofPower.jpg",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/PanteraVulgarDisplayofPower.jpg",
             "artist": {
                 "name": "Pantera",
                 "nickname": "Pantera",
@@ -52,7 +52,7 @@
             "_id": 4,
             "name": "Fear of the Dark",
             "album": "Fear of the Dark",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/Iron_Maiden_-_Fear_Of_The_Dark.jpg",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/e/eb/Iron_Maiden_-_Fear_Of_The_Dark.jpg",
             "artist": {
                 "name": "Iron Maiden",
                 "nickname": "Iron Maiden",
@@ -68,7 +68,7 @@
             "_id": 5,
             "name": "Holy Wars... The Punishment Due",
             "album": "Rust in Peace",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Megadeth-RustInPeace.jpg",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/d/dc/Megadeth-RustInPeace.jpg",
             "artist": {
                 "name": "Megadeth",
                 "nickname": "Megadeth",
@@ -84,7 +84,7 @@
             "_id": 6,
             "name": "Chop Suey!",
             "album": "Toxicity",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/6/60/System_of_a_Down_-_Toxicity.png",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
             "artist": {
                 "name": "System of a Down",
                 "nickname": "SOAD",
@@ -100,7 +100,7 @@
             "_id": 7,
             "name": "Du Hast",
             "album": "Sehnsucht",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Rammstein_-_Sehnsucht.png",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/1/1a/Du_hast.jpg",
             "artist": {
                 "name": "Rammstein",
                 "nickname": "Rammstein",
@@ -116,7 +116,7 @@
             "_id": 8,
             "name": "Laid to Rest",
             "album": "Ashes of the Wake",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/3/3a/Ashesofthewake.jpg",
+            "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Lamb_of_God_-_Ashes_of_the_Wake.jpg",
             "artist": {
                 "name": "Lamb of God",
                 "nickname": "Lamb of God",
