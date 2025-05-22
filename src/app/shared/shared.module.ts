@@ -16,9 +16,7 @@ import { PlayListBodyComponent } from './components/play-list-body/play-list-bod
     MediaPlayerComponent,
     HeaderUserComponent,
     CardPlayerComponent,
-    SectionGenericComponent,
-    PlayListHeaderComponent,
-    PlayListBodyComponent
+    SectionGenericComponent
   ],
   imports: [
     CommonModule
@@ -28,9 +26,7 @@ import { PlayListBodyComponent } from './components/play-list-body/play-list-bod
     HeaderUserComponent,
     MediaPlayerComponent,
     CardPlayerComponent,
-    SectionGenericComponent,
-    PlayListHeaderComponent,
-    PlayListBodyComponent
+    SectionGenericComponent
   ]
 })
 export class SharedModule { }

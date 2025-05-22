@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { FavoritePageComponent } from '@modules/favorites/pages/favorite-page/favorite-page.component';
 import { HomePageComponent } from '@modules/home/pages/home-page/home-page.component';
 
 export const routes: Routes = [
@@ -10,5 +11,9 @@ export const routes: Routes = [
         path: '',
         component: HomePageComponent,
         loadChildren: () => import(`./modules/home/home.module`).then(m => m.HomeModule)
+    },
+    {
+        path: 'favorites',
+        loadChildren: () => import(`@modules/favorites/favorites.module`).then(m => m.FavoritesModule)
     }
 ];

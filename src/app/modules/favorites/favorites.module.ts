@@ -9,7 +9,7 @@ import { FavoritePageComponent } from './pages/favorite-page/favorite-page.compo
 
 
 @NgModule({
-  declarations: [FavoritePageComponent],
+  declarations: [],
   imports: [
     CommonModule,
     FavoritesRoutingModule,

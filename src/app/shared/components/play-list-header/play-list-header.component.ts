@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-play-list-header',
-  standalone: false,
+  standalone: true,
   templateUrl: './play-list-header.component.html',
-  styleUrl: './play-list-header.component.css'
+  styleUrls: ['./play-list-header.component.css']
 })
 export class PlayListHeaderComponent {
 

@@ -6,7 +6,7 @@ import { FavoritePageComponent } from './pages/favorite-page/favorite-page.compo
 
 const routes: Routes = [
   {
-    path: 'favorites',
+    path: '',
     component: FavoritePageComponent
   }
 ];

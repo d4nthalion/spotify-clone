@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-play-list-body',
-  standalone: false,
+  standalone: true,
   templateUrl: './play-list-body.component.html',
-  styleUrl: './play-list-body.component.css'
+  styleUrls: ['./play-list-body.component.css']
 })
 export class PlayListBodyComponent {
 }
