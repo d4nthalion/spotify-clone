@@ -3,17 +3,42 @@
 }
 
 .section--generic__player--zone .player--list {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.15rem;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 1.15rem;
 }
 
-.section--generic__player--zone .player--list.card-small {
-    grid-template-columns: repeat(5, 1fr);
-}
-
+/* Remove grid-template-columns for card-small and card-big */
+.section--generic__player--zone .player--list.card-small,
 .section--generic__player--zone .player--list.card-big {
-    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    /* No grid styles here */
+}
+
+.player--list li {
+    flex: 0 0 220px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+/* Ensure the card and image do not stretch */
+app-card-player {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+}
+
+.player--list img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }

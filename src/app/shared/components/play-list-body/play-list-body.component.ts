@@ -14,10 +14,6 @@ import { OrderListPipe } from "../../pipe/order-list.pipe";
 export class PlayListBodyComponent implements OnInit{
   tracks: Array<TrackModel> = []
   optionSort: { property: string | null; order: string } = { property: null, order: 'asc' }
-
-   
-    
-  
   constructor() { }
 
   ngOnInit(): void {

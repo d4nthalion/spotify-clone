@@ -25,3 +25,71 @@ body {
     font-size: var(--font-size-1);
     color: var(--color-4);
 }
+
+/* Example: Adjust sidebar and main content for smaller screens */
+@media (max-width: 900px) {
+  .side-bar {
+    width: 4rem;
+    padding: .5rem .5rem;
+  }
+  .home-wrapper {
+    margin-left: 5rem;
+  }
+  .media-player--wrapper .artist,
+  .media-player--wrapper .player-audio {
+    width: 30%;
+  }
+  .media-player--wrapper .player-controls {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .side-bar {
+    display: none;
+  }
+  .home-wrapper {
+    margin-left: 0;
+    padding: 0 .5rem;
+  }
+  .media-player {
+    height: 65px;
+  }
+  .media-player--wrapper .artist,
+  .media-player--wrapper .player-audio,
+  .media-player--wrapper .player-controls {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+  .play-list-header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .cover {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Example for a card and image */
+.card {
+  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
+  /* ...other styles... */
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.player--list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  justify-content: start;
+}
