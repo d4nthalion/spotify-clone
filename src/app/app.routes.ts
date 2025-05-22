@@ -11,9 +11,5 @@ export const routes: Routes = [
         path: '',
         component: HomePageComponent,
         loadChildren: () => import(`./modules/home/home.module`).then(m => m.HomeModule)
-    },
-    {
-        path: 'favorites',
-        loadChildren: () => import(`@modules/favorites/favorites.module`).then(m => m.FavoritesModule)
     }
 ];

@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-play-list-body',
-  standalone: true,
+  imports: [],
   templateUrl: './play-list-body.component.html',
-  styleUrls: ['./play-list-body.component.css']
+  styleUrl: './play-list-body.component.css'
 })
 export class PlayListBodyComponent {
+
 }

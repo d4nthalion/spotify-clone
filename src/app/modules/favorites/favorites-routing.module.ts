@@ -1,13 +1,12 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PlayListBodyComponent } from '@shared/components/play-list-body/play-list-body.component';
-import { PlayListHeaderComponent } from '@shared/components/play-list-header/play-list-header.component';
-import { FavoritePageComponent } from './pages/favorite-page/favorite-page.component';
+import { FavoritesPageComponent } from './pages/favorites-page/favorites-page.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: FavoritePageComponent
+    component: FavoritesPageComponent,
+    outlet: 'child'
   }
 ];
 
