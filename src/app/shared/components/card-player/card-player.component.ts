@@ -14,7 +14,11 @@ export class CardPlayerComponent implements OnInit{
     name: '',
     album: '',
     url: '',
-    cover: ''
+    cover: '',
+    duration: {
+      start: 0,
+      end: 0
+    }
   }
   constructor() {}
 

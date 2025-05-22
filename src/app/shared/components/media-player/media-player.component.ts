@@ -13,7 +13,11 @@ export class MediaPlayerComponent implements OnInit{
     album: 'Metallica',
     name: 'Seek & Destroy',
     url: 'http://localhost/track.mp3',
-    _id: 1
+    _id: 1,
+    duration: {
+      start: 0,
+      end: 250
+    }
   }
   
   constructor() {}
