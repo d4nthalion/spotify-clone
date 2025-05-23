@@ -11,12 +11,6 @@
     padding: 0;
 }
 
-/* Remove grid-template-columns for card-small and card-big */
-.section--generic__player--zone .player--list.card-small,
-.section--generic__player--zone .player--list.card-big {
-    /* No grid styles here */
-}
-
 .player--list li {
     flex: 0 0 220px;
     box-sizing: border-box;
