@@ -14,6 +14,4 @@ export class ImgBrokenDirective {
   constructor(private theHost: ElementRef) {
     
   }
-
-
 }

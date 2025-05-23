@@ -20,12 +20,21 @@ export class TracksPageComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this._trackService.getAllTracks$()
-                      .subscribe(response => {
-                        
+                      .subscribe((response: TrackModel[]) => {
+                        this.tracksTrending = response
+                      }, err => {
+                        console.log('Connection error')
+                      })
+
+    this._trackService.getRandomTracks$()
+                      .subscribe((response: TrackModel[]) => {
+                        this.tracksRandom = response
+                      }, err => {
+                        console.log('Connection error')
                       })
   }
 
   ngOnDestroy(): void {
-    this.listObservers$.forEach(s => s.unsubscribe)
+    
   }
 }
