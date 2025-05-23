@@ -93,3 +93,15 @@ body {
   gap: 1rem;
   justify-content: start;
 }
+
+input, button {
+  font-family: var(--font-family-1);
+}
+
+button:disabled {
+  opacity: 50%;
+}
+
+button:enabled:hover {
+  cursor: pointer;
+}
