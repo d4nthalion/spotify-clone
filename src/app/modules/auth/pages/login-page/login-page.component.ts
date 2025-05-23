@@ -38,10 +38,10 @@ export class LoginPageComponent implements OnInit{
 
     this._authService.sendCredentials(email, password)
                      .subscribe(responseOk => {
-                      console.log('Session started correctly')
-                      const {tokenSession, data} = responseOk
-                      this._cookieService.set('token', tokenSession, 4, '/')
-                      this.router.navigate(['/'])
+                        console.log('Session started correctly')
+                        const {tokenSession, data} = responseOk
+                        this._cookieService.set('token', tokenSession, 4, '/')
+                        this.router.navigate(['/'])
                      },
                      err => {
                       this.errorSession = true
