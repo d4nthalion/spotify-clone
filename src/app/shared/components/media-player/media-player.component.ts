@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TrackModel } from '@core/models/tracks.model';
+import { MultimediaService } from '@shared/services/multimedia.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-media-player',
@@ -7,7 +9,7 @@ import { TrackModel } from '@core/models/tracks.model';
   templateUrl: './media-player.component.html',
   styleUrl: './media-player.component.css'
 })
-export class MediaPlayerComponent implements OnInit{
+export class MediaPlayerComponent implements OnInit, OnDestroy{
   mockCover:TrackModel = {
     cover: 'https://i.scdn.co/image/ab67616d0000b27320292e6cce666a69ba5a86fb',
     album: 'Metallica',
@@ -19,10 +21,24 @@ export class MediaPlayerComponent implements OnInit{
       end: 250
     }
   }
+
+  listObservers$:Subscription[] = []
   
-  constructor() {}
+  constructor(private _multimediaService:MultimediaService) {
+
+  }
 
   ngOnInit(): void {
-      
+    const observer1$: Subscription = this._multimediaService.callback.subscribe(
+      (response:TrackModel) => {
+        console.log('Receiving song...', response)
+      }
+    )
+
+    this.listObservers$.push(observer1$)
+  }
+
+  ngOnDestroy(): void {
+    this.listObservers$.forEach((s => s.unsubscribe))
   }
 }

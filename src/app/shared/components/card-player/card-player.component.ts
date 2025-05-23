@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { TrackModel } from '@core/models/tracks.model';
 import { ImgBrokenDirective } from '@shared/directives/img-broken.directive';
+import { MultimediaService } from '@shared/services/multimedia.service';
 import { SharedModule } from '@shared/shared.module';
 
 @Component({
@@ -23,9 +24,16 @@ export class CardPlayerComponent implements OnInit{
       end: 0
     }
   }
-  constructor() {}
+
+  constructor(private _multimediaService: MultimediaService) {
+
+  }
 
   ngOnInit(): void {
       
+  }
+
+  sendPlay(track:TrackModel): void {
+    this._multimediaService.callback.emit(track)
   }
 }

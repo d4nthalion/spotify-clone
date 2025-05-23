@@ -82,3 +82,11 @@
     right: 0;
     top: 13rem
 }
+
+button {
+  transition: transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
