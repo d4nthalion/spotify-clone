@@ -66,6 +66,4 @@ export class SideBarComponent implements OnInit{
       }
     ]
   }
-
-  
 }

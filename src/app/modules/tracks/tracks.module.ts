@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TracksRoutingModule } from './tracks-routing.module';
 import { SharedModule } from '@shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -10,7 +11,7 @@ import { SharedModule } from '@shared/shared.module';
   imports: [
     CommonModule,
     TracksRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class TracksModule { }
