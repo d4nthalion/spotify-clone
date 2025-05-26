@@ -115,6 +115,7 @@ button  {
 button:active {
     transform: scale(0.95);
 }
+
 .error-message {
   color: #fff;
   background-color: #f44336; /* rojo suave */
